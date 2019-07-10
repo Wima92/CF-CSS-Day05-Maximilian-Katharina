@@ -15,26 +15,34 @@ aside #left {
 	background-color: #84E2FF;
 	width: 20%;
 	height: 40vw;
-
+	float: left;
 }
 aside #right {
 	background-color: #84E2FF;
 	width: 15%;
 	height: 40vw;
 }
-aside .containerright #right {
+aside .containerright {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
 }
-main .collum1{
+
+/* aside. containerleft {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	}*/
+}
+article .collum1{
 	background-color: black;
 	width: 15%;
 	height: 17vw;
 }
-main .row {
+
+article .row {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-around;
 	
 }
