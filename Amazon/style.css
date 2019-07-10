@@ -1,0 +1,20 @@
+/*main img {
+	width: 100%;
+}*/
+*, body {
+	margin: 0;
+}
+header {
+	background-color: #232F3D;
+	width: 100%;
+	height: 8vw;
+}
+
+header img {
+	width: 18%;
+	height: auto;
+}
+
+header .logo {
+	float: left;
+}
