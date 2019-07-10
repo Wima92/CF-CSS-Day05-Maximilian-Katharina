@@ -43,33 +43,38 @@ footer {
 main .mid .container1 {
 	width: 100%;
 	height: 70%;
-	margin-bottom: 1%;
 }
 main .mid .container1 .row {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	align-items: center;
+	width: 100%;
 }
 main .mid .container1 .row .collum {
-	background-color: black;
-	width: 31%;
+
+	background-color: #84E2FF;
+	width: 33%;
 	height: 13vw;
+	margin: 0% 5% 5% 5%;
 }
 	
 main .mid .container2 {
 	width: 100%;
-	height: 23.7%;
+	height: 30%;
+	flex-direction: row;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
 }
 
 .balken {
-	height: 100px;
+	height: 60%;
 	width: 90%;
 	background-color: #84E2FF;
-	display: flex;
-	justify-content: space-around;
 }
 
 br {
 	height: 60%;
 	width: 100%;
-}
+} 
